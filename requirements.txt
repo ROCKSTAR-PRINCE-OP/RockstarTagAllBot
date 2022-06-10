@@ -1,4 +1,4 @@
-#DevilHacker
+#ROCKSTAR_PRINCE_OP
 telethon
 cryptg
 asyncio
