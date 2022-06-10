@@ -108,7 +108,7 @@ async def all(event):
   except:
     pass
 
-@client.on(events.NewMessage(pattern="^/cancel$"))
+@client.on(events.NewMessage(pattern="^/stop$"))
 async def cancel_spam(event):
   if not event.chat_id in spam_chats:
     return await event.respond('__There Is No Proccess On Going @L00NeY_TunesxD...__')
